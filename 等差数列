@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a, b, c;
+	int x,y;
+	scanf_s("%d%d%d", &a, &b, &c);
+	x = 2 * a + (c - 1) * b;
+	y = x * c / 2;
+	printf("%d",y );
+	返回0;
+  }
